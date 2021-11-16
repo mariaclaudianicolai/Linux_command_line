@@ -51,11 +51,26 @@
 | ```ls -h -a``` | List local contents in human format  |
 | ```ls -l -a ``` | List local hidden contents  |
 | ```pwd ``` | Print working directory  |
-| ```nano <filename> ``` | Open or modify text file   |
-| ```grep <name> ``` | Search name   |
+| ```grep <pattern> <filename> ``` | Print lines that match patterns. Search for patterns in file.   |
 | ```clear ``` | Clear console   |
 | ```top``` | Show task manager   |
 | ```htop``` | Show interactive task manager   |
+
+## Modifying file 
+| cmd            | meaning              |
+| ------------- |:-------------:|
+| ```nano <filename>.txt ``` | Create, open or modify text file   |
+| ```sort <input_filename>.txt -o <output_filename>.txt``` | Sorting text file   |
+| ```sort -r <filename>.txt ``` | Sorting in reverse order    |
+| ```sort -n <filename>.txt ``` | Sorting a file numerically   |
+| ```sort -nr <filename>.txt ``` | Sorting a file with numeric data in reverse order   |
+| ```sort -k <filename>.txt ``` | Sorting a certain column. For example, use “-k 2” to sort on the second column.   |
+| ```sort -u <filename>.txt ``` | To sort and remove duplicates. This will write a sorted list to standard output and remove duplicates.  |
+| ```uniq -c <filename>.txt ``` | It tells how many times a line was repeated by displaying a number as a prefix with the line.  |
+| ```awk '{print $1,$4}' <filename>.txt ``` | Splitting a line into fields: for each record i.e line, the awk command splits the record delimited by whitespace character by default and stores it in the $n variables.|
+| ```awk '!seen[$0]++' <filename>``` | To remove duplicates lines in a file.|
+| ```head <option> <filename> ``` | Without any option it displays only the first 10 lines of the file. ```-n <num>``` prints first num lines. ```-v``` data preceded by its file name. ```-c`<num>`` Prints the first ‘num’ bytes from the file. |
+
 
 ## Screen
 | cmd            | meaning              |
