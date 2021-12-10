@@ -84,7 +84,7 @@
 ## Archive
 | cmd            | meaning              |
 | ------------- |:-------------:|
-| ```tar -xzvf <filename.tar.gz> <list_of_file_to_archive>```   | Extract zip archive |
+| ```tar -xzvf <filename.tar.gz>```   | Extract zip archive |
 | ```tar -czvf <filename.tar.gz> <list_of_file_to_archive>```   | Create zip archive |
 | ```tar -xjvf <filename.tar.bz2> <list_of_file_to_archive>```   | Extract bz2 archive |
 | ```tar -cjvf <filename.tar.bz2> <list_of_file_to_archive>```   | Create bz2 archive |
