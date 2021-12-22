@@ -80,11 +80,12 @@
 | ```ctrl+a``` followed by ```ctrl+d``` | Exit from virtual shell/Ensure not to be in main shell |
 | ```exit ``` | Exit from virtual shell or connection in ssh |
 | ```nano ~/.screenrc``` in nano type ```# Enable mouse scrolling and scroll bar history scrolling termcapinfo xterm* ti@:te@```| Enable scroll for screen |
+| ```screen -ls```   | To list all of the screen sessions for a user |
 
 ## Archive
 | cmd            | meaning              |
 | ------------- |:-------------:|
-| ```tar -xzvf <filename.tar.gz>```   | Extract zip archive |
+| ```tar -xzvf <filename.tar.gz> <path_where_to_extract>```   | Extract zip archive |
 | ```tar -czvf <filename.tar.gz> <list_of_file_to_archive>```   | Create zip archive |
 | ```tar -xjvf <filename.tar.bz2> <list_of_file_to_archive>```   | Extract bz2 archive |
 | ```tar -cjvf <filename.tar.bz2> <list_of_file_to_archive>```   | Create bz2 archive |
