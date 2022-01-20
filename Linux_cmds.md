@@ -88,4 +88,5 @@
 | ```tar -xzvf <filename.tar.gz> <path_where_to_extract>```   | Extract zip archive |
 | ```tar -czvf <filename.tar.gz> <list_of_file_to_archive>```   | Create zip archive |
 | ```tar -xjvf <filename.tar.bz2> <list_of_file_to_archive>```   | Extract bz2 archive |
+| ```bzip2 -d <filename.bz2> <list_of_file_to_archive>```   | Extract bz2 archive |
 | ```tar -cjvf <filename.tar.bz2> <list_of_file_to_archive>```   | Create bz2 archive |
