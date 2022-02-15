@@ -79,7 +79,7 @@
 | ```screen -r <shell_name> ``` | Restore opened shell |
 | ```ctrl+a``` followed by ```ctrl+d``` | Exit from virtual shell/Ensure not to be in main shell |
 | ```exit ``` | Exit from virtual shell or connection in ssh |
-| ```nano ~/.screenrc``` in nano type ```# Enable mouse scrolling and scroll bar history scrolling termcapinfo xterm* ti@:te@```| Enable scroll for screen |
+| ```nano ~/.screenrc``` in nano type ```# Enable mouse scrolling and scroll bar history scrolling termcapinfo \\ xterm* ti@:te@```| Enable scroll for screen |
 | ```screen -ls```   | To list all of the screen sessions for a user |
 
 ## Archive
