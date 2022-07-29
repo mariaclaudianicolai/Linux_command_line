@@ -81,6 +81,7 @@
 | ```exit ``` | Exit from virtual shell or connection in ssh |
 | ```nano ~/.screenrc``` in nano type ```# Enable mouse scrolling and scroll bar history scrolling termcapinfo \\ xterm* ti@:te@```| Enable scroll for screen |
 | ```screen -ls```   | To list all of the screen sessions for a user |
+| ```screen -D <screen_name_to_detached>```   | To detach the attached screen session that you cannot access |
 
 ## Archive
 | cmd            | meaning              |
