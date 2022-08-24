@@ -56,7 +56,7 @@
 | ```top``` | Show task manager   |
 | ```htop``` | Show interactive task manager   |
 | ```df -h``` | Check device space   |
-| ```du -h <folder_name>``` | Check folder dimension   |
+| ```du -sh <folder_name>``` | Check folder dimension   |
 
 ## Modifying file 
 | cmd            | meaning              |
