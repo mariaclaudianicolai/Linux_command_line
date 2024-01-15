@@ -24,6 +24,14 @@
 | ```sudo apt purge ``` | Remove dependences of removed package |
 | ```nano <name>.sh``` | Create bash file/ create file and type on the top ```#!/bin/sh```/ make executable
 
+## Python
+| cmd            | meaning              |
+| ------------- |:-------------:|
+| ```python3 -m venv </path/to/new/virtual/environment>``` | Create venv |
+| ```python3 -m venv venv --systems-site-packages```   | Create venv importing existing packages |
+| ```python3 install <name> --upgrade```   | Install last version of package |
+| ```source venv/bin/activate``` | Activate venv |
+
 ## Basics
 | cmd            | meaning              |
 | ------------- |:-------------:|
@@ -57,6 +65,7 @@
 | ```htop``` | Show interactive task manager   |
 | ```df -h``` | Check device space   |
 | ```du -sh <folder_name>``` | Check folder dimension   |
+| ```du -hd 1``` | Check folder size   |
 
 ## Modifying file 
 | cmd            | meaning              |
@@ -78,6 +87,7 @@
 | cmd            | meaning              |
 | ------------- |:-------------:|
 | ```screen -S <shell_name>```   | Create virtual shell |
+| ```screen -L -S <screen_name>```   | Create virtual shell and a file with standard-out |
 | ```screen -r <shell_name> ``` | Restore opened shell |
 | ```ctrl+a``` followed by ```ctrl+d``` | Exit from virtual shell/Ensure not to be in main shell |
 | ```exit ``` | Exit from virtual shell or connection in ssh |
