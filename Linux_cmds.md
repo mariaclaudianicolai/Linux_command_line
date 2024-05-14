@@ -11,6 +11,7 @@
 | ```scp \<username>@<ipaddress_o_url> <filename>``` | Get file |
 | ```cp <start_path> <end_path>``` | Copy file/one at time/no folder |
 | ```who``` | Show users connected |
+| ```rsync -azP <source> <destination>``` | Sync local and remote directories |
 
 ## Installation and exe file
 | cmd            | meaning              |
