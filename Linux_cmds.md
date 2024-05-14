@@ -29,7 +29,7 @@
 | cmd            | meaning              |
 | ------------- |:-------------:|
 | ```python3 -m venv </path/to/new/virtual/environment>``` | Create venv |
-| ```python3 -m venv venv --systems-site-packages```   | Create venv importing existing packages |
+| ```python3 -m venv venv --system-site-packages```   | Create venv importing existing packages |
 | ```python3 install <name> --upgrade```   | Install last version of package |
 | ```source venv/bin/activate``` | Activate venv |
 
